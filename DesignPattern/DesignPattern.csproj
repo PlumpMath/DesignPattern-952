@@ -42,11 +42,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationalPattern\AbstractFactory\Example1\Bike.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example1\BMWFactory.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example1\Car.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example1\ClientVechile.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example1\HondaFactory.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example1\RegularBike.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example1\RegularCar.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example1\SportBike.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example1\SportCar.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example1\VechileFactory.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example2\Adult.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example2\BLT.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example2\CremeBrulee.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example2\Dessert.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example2\GrilledCheese.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example2\IceCream.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example2\Kids.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example2\Recipe.cs" />
+    <Compile Include="CreationalPattern\AbstractFactory\Example2\Sandwich.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
